@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Crushy87</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header class="products-header">
+        <a href="index.html" class="brand-name">Crushy87</a>
+        <nav class="header-nav">
+            <a href="products.html" class="active">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <button class="burger-menu" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <div class="category-overlay">
+            <div class="overlay-content">
+                <button class="category-item active" data-category="All">All Products</button>
+                <button class="category-item" data-category="Jackets">Jackets</button>
+                <button class="category-item" data-category="Pants">Pants</button>
+                <button class="category-item" data-category="Sweaters">Sweaters</button>
+                <button class="category-item" data-category="Shoes">Shoes</button>
+                <button class="category-item" data-category="Accessories">Accessories</button>
+            </div>
+        </div>
+        
+        <div id="productsGrid" class="products-grid"></div>
+    </main>
+
+    <div class="social-links">
+        <a href="https://shop68237358.world.taobao.com/" target="_blank">Taobao</a>
+        <span class="separator">|</span>
+        <a href="#" class="wechat-trigger">WeChat: Crushy87</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
